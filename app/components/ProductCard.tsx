@@ -50,7 +50,7 @@ export default function ProductCard() {
                     link="https://tailwindflex.com"
                 />
                 <Product
-                    imageSrc="/img/Accessories.webp"
+                    imageSrc="/img/ev.png"
                     title="Coming Soon"
                     description="Something amazing is on the way! Stay tuned for the launch of our latest product—designed to bring you the best experience."
                     email="kazitaeef@gmail.com"

@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import Image from 'next/image';
 
 const getFileIcon = (fileName: string): string => {
   const extension = fileName.split('.').pop()?.toLowerCase();
@@ -60,9 +61,11 @@ const FilesPage: React.FC = () => {
         {currentFiles.length > 0 ? (
           currentFiles.map((fileName, index) => (
             <li key={index} className="flex items-center space-x-4">
-              <img
+              <Image
                 src={getFileIcon(fileName)}
                 alt={fileName}
+                height={500}
+                width={500}
                 className="w-16 h-16 object-contain"
               />
               <a

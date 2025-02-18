@@ -48,7 +48,7 @@ const CareerPage: React.FC = () => {
             {/* Job Openings Section */}
             <section className="py-16">
                 <div className="container mx-auto px-4">
-                    <h1 className='text-gray-900 text-center mb-8 dark:text-gray-50'>We're looking for talented individuals to help shape the future.</h1>
+                    <h1 className='text-gray-900 text-center mb-8 dark:text-gray-50'>We are looking for talented individuals to help shape the future.</h1>
                     <h1 className="text-center mb-8 dark:text-gray-50">Current Openings</h1>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {jobOpenings.map((job) => (
@@ -92,7 +92,7 @@ const CareerPage: React.FC = () => {
             {/* Call to Action Section */}
             <section className="py-16 bg-gradient-to-r from-blue-900 to-blue-600 text-white text-center">
                 <h2 className="text-3xl font-bold">Ready to Make a Difference?</h2>
-                <p className="mt-4 text-lg">We're excited to hear from you!</p>
+                <p className="mt-4 text-lg">We are excited to hear from you!</p>
                 <a
                     href="mailto:mail.kazimizan@gmail.com.com"
                     className="mt-8 inline-block text-white bg-blue-600 px-8 py-3 rounded hover:bg-blue-500 transition duration-300"

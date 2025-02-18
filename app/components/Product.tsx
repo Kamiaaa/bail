@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -14,7 +15,7 @@ export default function Product({ imageSrc, title, description, link }: ProductP
         <Link href={link}>
             <div className="max-w-sm rounded-lg overflow-hidden shadow-lg relative bg-white dark:bg-gray-800 group">
                 {/* Card Image */}
-                <img className="w-full h-64 object-cover" src={imageSrc} alt="Card image" />
+                <Image className="w-full h-64 object-cover" height={500} width={500} src={imageSrc} alt="Card image" />
                 
                 {/* Overlay for Title and Description */}
                 <div className="absolute inset-0 flex flex-col justify-end bg-blue-500/80 text-white p-4 transform translate-y-full transition-transform duration-300 group-hover:translate-y-0">
